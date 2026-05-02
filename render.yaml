@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: chess-api
+    env: node
+    plan: free
+    startCommand: cd server && npm install && node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: "20.14.0"
