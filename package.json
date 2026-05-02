@@ -1,0 +1,11 @@
+{
+  "name": "chess-app",
+  "version": "1.0.0",
+  "description": "Single Page Chess Web Application",
+  "private": true,
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "start": "cd server && node server.js",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install"
+  }
+}
